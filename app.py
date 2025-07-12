@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-from prophet import Prophet
-from prophet.plot import plot_plotly, plot_components_plotly
+from fbprophet import Prophet
+from fbprophet.plot import plot_plotly, plot_components_plotly
 import openai
 import io
 
